@@ -9,3 +9,5 @@ crash_robot.power_on()
 
 crash_robot.shutdown()
 
+crash_robot.charge(20)
+
