@@ -10,6 +10,13 @@ class Robot():
         self.__state = False
         self.__battery = 0
 
+    #renommage du robot s'il n'a pas été nommé à sa création
+    def rename(self, name):
+        if self.__name == "<unnamed>":
+            self.__name = name
+        else:
+            print(f"""{self.__name} can't change his name""")
+
     #allumage robot
     def power_on(self):
         if self.__state:
