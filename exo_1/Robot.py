@@ -57,10 +57,19 @@ class Robot():
         else:
             print(f"""{self.__name} is OFF and can't move""")
 
+    def stop(self):
+        if self.__speed>0:
+            self.__speed = 0
+        else:
+            print(f"""{self.__name} est déjà à l'arrêt""")
+
     
     @property
     
     def get_speed(self):
-        print(f"""{self.__name} avance à {self.__speed}km/h""")
+        if self.__speed>0:
+            print(f"""{self.__name} avance à {self.__speed}km/h""")
+        else:
+            print(f"""{self.__name} est à l'arrêt""")
         return self.__speed
         
