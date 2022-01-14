@@ -12,10 +12,10 @@ class Robot():
     #allumage robot
     def power_on(self):
         if self.__state:
-            print("Robot already ON")
+            print(f"""{self.__name} is already ON""")
         else :
             self.__state = True
-            print("Robot ignition")
+            print(f"""{self.__name} ignition""")
 
     #extinction robot
     def shutdown(self):
@@ -23,6 +23,6 @@ class Robot():
             self.__state = False
             print("See ya later")
         else:
-            print("Robot already OFF")
+            print(f"""{self.__name} is already OFF""")
     
 
