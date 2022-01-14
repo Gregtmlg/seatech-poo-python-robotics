@@ -56,4 +56,11 @@ class Robot():
             self.__speed = value
         else:
             print(f"""{self.__name} is OFF and can't move""")
+
+    
+    @property
+    
+    def get_speed(self):
+        print(f"""{self.__name} avance à {self.__speed}km/h""")
+        return self.__speed
         
