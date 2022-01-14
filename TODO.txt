@@ -1,4 +1,4 @@
-1. Lorque je crée mon robot, je veux pouvoir lui attribuer un nom
+1. Lorque je crée mon robot, je veux pouvoir lui attribuer un nom  OK
 2. Mon robot doit pouvoir s'allumer
 3. Mon robot doit pouvoir s'éteindre
 4. Mon robot doit pouvoir charger sa batterie à 100%, allumé ou non
