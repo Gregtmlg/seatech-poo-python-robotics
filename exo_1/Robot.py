@@ -8,7 +8,8 @@ class Robot():
         else :
             self.__name = "<unnamed>"
         self.__state = False
-        self.__battery = 0
+        self.__battery = 100
+        self.__speed = 0
 
     #renommage du robot s'il n'a pas été nommé à sa création
     def rename(self, name):
@@ -49,4 +50,10 @@ class Robot():
             print(f"""{self.__name} is {self.__battery}% charged""")
 
     
-
+    #attribution d'une vitesse de déplacement
+    def speed(self, value):
+        if self.__state:
+            self.__speed = value
+        else:
+            print(f"""{self.__name} is OFF and can't move""")
+        

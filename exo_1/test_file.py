@@ -11,3 +11,7 @@ crash_robot.shutdown()
 
 crash_robot.charge(20)
 
+crash_robot.rename("Charly")
+
+crash_robot.speed(20)
+
