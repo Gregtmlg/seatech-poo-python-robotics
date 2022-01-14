@@ -4,7 +4,7 @@
 4. Mon robot doit pouvoir charger sa batterie à 100%, allumé ou non         OK
 5. Le temps de charge ne peut pas être immédiat (10s max)                   OK
 6. Mon robot doit afficher sont % de batterie durant sa charge              OK
-7. Mon robot doit pouvoir enregistrer une vitesse de déplacement
+7. Mon robot doit pouvoir enregistrer une vitesse de déplacement            OK
 8. Mon robot doit pouvoir me donner sa vitesse de déplacement
 9. Mon robot doit pouvoir arrêter son déplacement sur commande
 10. Mon robot doit pouvoir me fournir un résumé de son état global
