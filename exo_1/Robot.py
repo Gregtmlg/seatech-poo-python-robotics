@@ -2,11 +2,9 @@ import time
 
 class Robot():
 
-    def __init__(self, name):
+    def __init__(self, name = '<unnamed>'):
         if name:
             self.__name = name
-        else :
-            self.__name = "<unnamed>"
         self.__state = False
         self.__battery = 100
         self.__speed = 0
