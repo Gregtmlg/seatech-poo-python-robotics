@@ -62,6 +62,18 @@ class Robot():
             self.__speed = 0
         else:
             print(f"""{self.__name} est déjà à l'arrêt""")
+    
+    def global_state(self):
+        if self.__state:
+            etat = "ON"
+        else:
+            etat = "OFF"
+        print(f"""###########
+Name : {self.__name}
+State : {etat}
+Battery : {self.__battery}%
+Speed : {self.__speed}km/h
+###########""")
 
     
     @property

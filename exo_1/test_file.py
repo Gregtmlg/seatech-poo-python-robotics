@@ -23,5 +23,9 @@ crash_robot.stop()
 
 crash_robot.get_speed
 
+crash_robot.global_state()
+
+
+
 
 
