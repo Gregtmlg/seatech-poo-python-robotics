@@ -16,5 +16,13 @@ class Robot():
         else :
             self.__state = True
             print("Robot ignition")
+
+    #extinction robot
+    def shutdown(self):
+        if self.__state:
+            self.__state = False
+            print("See ya later")
+        else:
+            print("Robot already OFF")
     
 

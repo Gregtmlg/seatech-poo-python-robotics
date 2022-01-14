@@ -7,3 +7,5 @@ crash_robot.power_on()
 
 crash_robot.power_on()
 
+crash_robot.shutdown()
+
