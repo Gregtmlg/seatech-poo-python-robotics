@@ -1,0 +1,10 @@
+1. Lorque je crée mon robot, je veux pouvoir lui attribuer un nom  OK
+2. Mon robot doit pouvoir s'allumer
+3. Mon robot doit pouvoir s'éteindre
+4. Mon robot doit pouvoir charger sa batterie à 100%, allumé ou non
+5. Le temps de charge ne peut pas être immédiat (10s max)
+6. Mon robot doit afficher sont % de batterie durant sa charge
+7. Mon robot doit pouvoir enregistrer une vitesse de déplacement
+8. Mon robot doit pouvoir me donner sa vitesse de déplacement
+9. Mon robot doit pouvoir arrêter son déplacement sur commande
+10. Mon robot doit pouvoir me fournir un résumé de son état global
