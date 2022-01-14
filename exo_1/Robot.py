@@ -35,7 +35,8 @@ class Robot():
     def shutdown(self):
         if self.__state:
             self.__state = False
-            self.stop()
+            if self.__speed>0:
+                self.stop()
             print("See ya later")
         else:
             print(f"""{self.__name} is already OFF""")
@@ -78,6 +79,8 @@ class Robot():
             print(f"""{self.__name} est déjà à l'arrêt""")
     
     def global_state(self):
+        self.__conso_batterie()
+        self.__time_action = time.time()
         if self.__state:
             etat = "ON"
         else:
@@ -85,7 +88,7 @@ class Robot():
         print(f"""###########
 Name : {self.__name}
 State : {etat}
-Battery : {self.__battery}%
+Battery : {int(self.__battery)}%
 Speed : {self.__speed}km/h
 ###########""")
 
@@ -94,11 +97,11 @@ Speed : {self.__speed}km/h
     def __conso_batterie(self):
         now = int(time.time())
         if self.__state == True and self.__speed == 0:
-            battery  = self.__battery - int(now - self.__time_action)*0.001
-            self.__battery = max(self.__battery,  battery)
+            battery  = max(self.__battery - int(now - self.__time_action)*0.01, 0)
+            self.__battery = int(battery)
         elif self.__state == True and self.__speed != 0:
-            battery  = self.__battery - int(now - self.__time_action)*0.001*self.__speed
-            self.__battery = max(self.__battery,  battery)
+            battery  = max(self.__battery - int(now - self.__time_action)*0.01*self.__speed, 0)
+            self.__battery = int(battery)
     
     @property
     
