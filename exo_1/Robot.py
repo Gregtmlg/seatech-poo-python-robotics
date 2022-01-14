@@ -1,6 +1,7 @@
 import time
 
 class Robot():
+
     def __init__(self, name):
         if name:
             self.__name = name
@@ -11,9 +12,9 @@ class Robot():
     #allumage robot
     def power_on(self):
         if self.__state:
-            return """Robot already ON"""
+            print("Robot already ON")
         else :
             self.__state = True
-            return """Robot ignition"""
+            print("Robot ignition")
     
 
