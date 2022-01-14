@@ -7,4 +7,4 @@
 7. Mon robot doit pouvoir enregistrer une vitesse de déplacement            OK
 8. Mon robot doit pouvoir me donner sa vitesse de déplacement               OK
 9. Mon robot doit pouvoir arrêter son déplacement sur commande              OK
-10. Mon robot doit pouvoir me fournir un résumé de son état global
+10. Mon robot doit pouvoir me fournir un résumé de son état global          OK
