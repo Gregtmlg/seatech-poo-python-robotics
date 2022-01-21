@@ -28,3 +28,6 @@ class Humain():
     @property
     def sexe(self):
         return self.__sexe
+    @property
+    def name(self):
+        return self.__name
