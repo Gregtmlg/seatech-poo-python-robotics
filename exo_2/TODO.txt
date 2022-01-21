@@ -1,0 +1,4 @@
+1. Un humain doit avoir un sexe
+2. Un humain doit pouvoir manger des aliments
+3. [BONUS] Un humain doit pouvoir digérer
+4. Créer la classe Cyborg à partir des clases Robot et humain
