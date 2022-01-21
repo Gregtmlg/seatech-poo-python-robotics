@@ -1,4 +1,4 @@
-1. Réutiliser la class Robot faite dans l'exo 1. Sans copier/coller dans le fichier ;)
+1. Réutiliser la class Robot faite dans l'exo 1. Sans copier/coller dans le fichier ;)                          OK
 2. Un humain doit posséder un sexe attribuable à sa création
 3. Un humain doit pouvoir manger un ou plusieurs aliments
 4. Un humain doit pouvoir digérer ce qu'il a mangé pas très important, faire en dernier si vous avez le temps
