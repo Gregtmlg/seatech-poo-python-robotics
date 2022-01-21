@@ -24,3 +24,7 @@ class Humain():
         else : 
             self.__bad_food.append(aliment)
             print(f"""{self.__name} n'aime pas cet aliment : {aliment}""")
+
+    @property
+    def sexe(self):
+        return self.__sexe
