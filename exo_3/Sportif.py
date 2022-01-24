@@ -7,4 +7,12 @@ class Sportif(metaclass=abc.ABCMeta):
         """Give the sport of the player"""
         pass
 
-    #@abc.abstractclassmethod
+    @abc.abstractclassmethod
+    def name(self):
+        """Give the name of the player"""
+        pass
+
+    @abc.abstractclassmethod
+    def age(self):
+        """Give the age of the player"""
+        pass
