@@ -1,6 +1,6 @@
-1. Mettre en avant un principe de classe abstraite
-2. Mettre en avant un principe de polymorphisme
-3. Mettre en avant un principe d'héritage multiple
-4. Max 3 méthodes par classe (hors getter/setter)
-5. Pas d'algorithmes complexes, juste des print
-6. En tant que client je veux pouvoir jouer avec 3 types/dérivés de robots différents
+1. Mettre en avant un principe de classe abstraite                                      OK
+2. Mettre en avant un principe de polymorphisme                                         OK
+3. Mettre en avant un principe d'héritage multiple                                      OK
+4. Max 3 méthodes par classe (hors getter/setter)                                       OK
+5. Pas d'algorithmes complexes, juste des print                                         OK
+6. En tant que client je veux pouvoir jouer avec 3 types/dérivés de robots différents   OK

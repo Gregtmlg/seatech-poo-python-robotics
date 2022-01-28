@@ -7,4 +7,8 @@ class Sport(metaclass=abc.ABCMeta):
         """Give the shape of the ball"""
         pass
 
-    #@abc.abstractclassmethod
+    @abc.abstractclassmethod
+    def raquette_or_not(self):
+        """Says if the sport is played with raquette"""
+        pass
+    
