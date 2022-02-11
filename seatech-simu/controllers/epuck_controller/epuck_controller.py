@@ -83,7 +83,7 @@ class SeatechRobot(Robot):
             middle = self.__camera.getWidth()/2
             #print(self.__camera.getWidth())
             #print(middle)
-            print(target.get_position_on_image()[0])
+            #print(target.get_position_on_image()[0])
             if target.get_position_on_image()[0] > middle + 4:
                 self.turn_left(1)
             elif target.get_position_on_image()[0] < middle - 4:
@@ -124,7 +124,7 @@ class SeatechRobot(Robot):
             middle = self.__camera.getWidth()/2
             #print(self.__camera.getWidth())
             #print(middle)
-            print(target.get_position_on_image()[0])
+            #print(target.get_position_on_image()[0])
             if target.get_position_on_image()[0] > middle + 4:
                 self.turn_left(-1)
             elif target.get_position_on_image()[0] < middle - 4:
