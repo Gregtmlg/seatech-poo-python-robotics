@@ -1,0 +1,40 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.39857653795249626 -0.13773707619313366 0.9067332800970576 3.748903392120951
+  position 2.4154964459268538 1.1146367522453795 2.984275162597659
+}
+TexturedBackground {
+  texture "noon_park_empty"
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+}
+Seatech-E-puck {
+  translation 0.4800000000967733 0.11000000001781578 -6.39145487614616e-05
+  rotation 0.9998611874945854 -0.01666150477628441 7.122306048927093e-07 1.1908991625809825e-07
+  name "seatech-e-puck(2)"
+  controller ""
+  turretSlot [
+    Catcher-Token2 {
+    }
+  ]
+}
+Seatech-E-puck {
+  translation 0.5100000001981762 -0.2999999999821844 -6.396199560285837e-05
+  rotation 0.811604868748866 -0.5842067580664105 2.920052286110281e-05 3.0103188125946247e-09
+  name "seatech-e-puck(1)"
+  controller ""
+  turretSlot [
+    OldCatcher-Token2 {
+    }
+  ]
+}
+Seatech-E-puck {
+  translation 0.105792 0.349072 -0.000151994
+  rotation -4.011387367812575e-10 -4.758945413263813e-10 -0.9999999999999999 -1.8101670566125518
+  controller "epuck_controller"
+}
